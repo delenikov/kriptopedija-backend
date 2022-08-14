@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"https://kriptopedija-frontend.herokuapp.com"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3001"})
 @RequestMapping(value = {"/crypto"})
 @AllArgsConstructor
 public class CryptoController {

@@ -8,7 +8,7 @@ import java.util.EnumSet;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"https://kriptopedija-frontend.herokuapp.com"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3001"})
 @RequestMapping("/")
 public class HomeController {
     @GetMapping("/roles")

@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = {"https://kriptopedija-frontend.herokuapp.com"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3001"})
 @RequestMapping(value = {"/admin"})
 @AllArgsConstructor
 public class AdminController {
